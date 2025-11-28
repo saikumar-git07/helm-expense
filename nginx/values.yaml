@@ -5,3 +5,4 @@ deployment:
   imageVersion: latest
 Service: 
    targetPort: 8080
+   nodePort: 32789
