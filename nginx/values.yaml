@@ -1,0 +1,7 @@
+configMap:
+  port: 8080
+deployment:
+  replicas: 2
+  imageVersion: latest
+Service: 
+   targetPort: 8080
